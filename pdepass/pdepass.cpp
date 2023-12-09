@@ -77,8 +77,8 @@ namespace {
             //llvm::errs() << "checking hotness of succ:\n" << *Succ << "\n\n";
             //llvm::errs() << "hot?: " << numerator << "/" << denominator << " = " << ratio << " so " << bpi.isEdgeHot(current, Succ) <<"\n\n";
 
-            if (bpi.isEdgeHot(current, Succ)) {
-            //if (ratio >= 0.8) {  
+            //if (bpi.isEdgeHot(current, Succ)) {
+            if (ratio >= 0.8) {  
               current = Succ;
               llvm::errs() << "current updated:\n" << *current << "\n\n";
               freqPath.push_back(current);
