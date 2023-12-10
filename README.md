@@ -18,10 +18,10 @@ Navigate to benchmarks/ then modify this line in run.sh :
 `PATH2LIB="/home/mortonal/PDE_Project/build/pdepass/pdepass.so" `
 
 Change mortonal to your uniqname if on the eecs583 server
-Otherwise chhange the path to whatever path you need if this is a local install
+Otherwise change the path to whatever path you need if this is a local install
 
 Run using:
-`sh run.sh elmination-elimination`
+`sh run.sh elimination-elimination`
 or
-`sh run.sh elmination-sinking`
+`sh run.sh elimination-sinking`
 etc.
